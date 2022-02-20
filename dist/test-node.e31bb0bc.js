@@ -25045,13 +25045,13 @@ var define;
 }.call(this));
 
 },{"buffer":"node_modules/buffer/index.js"}],"index.js":[function(require,module,exports) {
-var moment = require('moment');
+var momentt = require('moment');
 
 var lodash = require('lodash'); // Print Date or Time in the following format:
 // February 12th 2021, 12:54:12 pm
 
 
-console.log(moment().format('MMMM Do YYYY, h:mm:ss a')); // Friday
+console.log(momentt.format('MMMM Do YYYY, h:mm:ss a')); // Friday
 
 console.log(moment().format('dddd')); // Feb 12th 21
 
@@ -25188,7 +25188,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "35465" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "38395" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
