@@ -1,0 +1,26 @@
+{
+  "name": "test-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lovekushrajput/test-node.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lovekushrajput/test-node/issues"
+  },
+  "homepage": "https://github.com/lovekushrajput/test-node#readme",
+  "dependencies": {
+    "lodash": "^4.17.21",
+    "moment": "^2.29.1",
+    "node": "^17.4.0",
+    "parcel-bundler": "^1.12.5"
+  }
+}
